@@ -12,12 +12,11 @@
 		436FE23F1EE742970005C0C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436FE23D1EE742970005C0C5 /* Main.storyboard */; };
 		436FE2411EE742970005C0C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436FE2401EE742970005C0C5 /* Assets.xcassets */; };
 		436FE2441EE742970005C0C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436FE2421EE742970005C0C5 /* LaunchScreen.storyboard */; };
-		436FE2501EE743070005C0C5 /* RubiksCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436FE24B1EE743060005C0C5 /* RubiksCube.swift */; };
-		436FE2511EE743070005C0C5 /* RubiksScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436FE24C1EE743060005C0C5 /* RubiksScene.swift */; };
-		436FE2521EE743070005C0C5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436FE24D1EE743060005C0C5 /* Extensions.swift */; };
-		436FE2531EE743070005C0C5 /* PlayArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436FE24E1EE743060005C0C5 /* PlayArea.swift */; };
-		436FE2541EE743070005C0C5 /* Side.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436FE24F1EE743070005C0C5 /* Side.swift */; };
-		436FE2561EE745090005C0C5 /* Orb.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 436FE2551EE745090005C0C5 /* Orb.PNG */; };
+		43D823751F8C476200F6EFB1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D823741F8C476200F6EFB1 /* Extensions.swift */; };
+		43D823771F8C476D00F6EFB1 /* PlayArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D823761F8C476D00F6EFB1 /* PlayArea.swift */; };
+		43D8237B1F8C478F00F6EFB1 /* Side.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D823781F8C478F00F6EFB1 /* Side.swift */; };
+		43D8237C1F8C478F00F6EFB1 /* RubiksCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D823791F8C478F00F6EFB1 /* RubiksCube.swift */; };
+		43D8237D1F8C478F00F6EFB1 /* RubiksScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D8237A1F8C478F00F6EFB1 /* RubiksScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +27,12 @@
 		436FE2401EE742970005C0C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		436FE2431EE742970005C0C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		436FE2451EE742970005C0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		436FE24B1EE743060005C0C5 /* RubiksCube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RubiksCube.swift; path = "../../../Developer/WWDC-2017/Rubik's Cube.playground/Sources/RubiksCube.swift"; sourceTree = "<group>"; };
-		436FE24C1EE743060005C0C5 /* RubiksScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RubiksScene.swift; path = "../../../Developer/WWDC-2017/Rubik's Cube.playground/Sources/RubiksScene.swift"; sourceTree = "<group>"; };
-		436FE24D1EE743060005C0C5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "../../../Developer/WWDC-2017/Rubik's Cube.playground/Sources/Extensions.swift"; sourceTree = "<group>"; };
-		436FE24E1EE743060005C0C5 /* PlayArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayArea.swift; path = "../../../Developer/WWDC-2017/Rubik's Cube.playground/Sources/PlayArea.swift"; sourceTree = "<group>"; };
-		436FE24F1EE743070005C0C5 /* Side.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Side.swift; path = "../../../Developer/WWDC-2017/Rubik's Cube.playground/Sources/Side.swift"; sourceTree = "<group>"; };
-		436FE2551EE745090005C0C5 /* Orb.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Orb.PNG; path = "../../../Developer/WWDC-2017/Rubik's Cube.playground/Resources/Orb.PNG"; sourceTree = "<group>"; };
+		43D823741F8C476200F6EFB1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		43D823761F8C476D00F6EFB1 /* PlayArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayArea.swift; sourceTree = "<group>"; };
+		43D823781F8C478F00F6EFB1 /* Side.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Side.swift; sourceTree = "<group>"; };
+		43D823791F8C478F00F6EFB1 /* RubiksCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubiksCube.swift; sourceTree = "<group>"; };
+		43D8237A1F8C478F00F6EFB1 /* RubiksScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubiksScene.swift; sourceTree = "<group>"; };
+		43D8237E1F8C479D00F6EFB1 /* Orb.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orb.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +68,12 @@
 				436FE2391EE742970005C0C5 /* AppDelegate.swift */,
 				436FE23B1EE742970005C0C5 /* ViewController.swift */,
 				436FE23D1EE742970005C0C5 /* Main.storyboard */,
-				436FE24D1EE743060005C0C5 /* Extensions.swift */,
-				436FE24E1EE743060005C0C5 /* PlayArea.swift */,
-				436FE24B1EE743060005C0C5 /* RubiksCube.swift */,
-				436FE24C1EE743060005C0C5 /* RubiksScene.swift */,
-				436FE2551EE745090005C0C5 /* Orb.PNG */,
-				436FE24F1EE743070005C0C5 /* Side.swift */,
+				43D823741F8C476200F6EFB1 /* Extensions.swift */,
+				43D823761F8C476D00F6EFB1 /* PlayArea.swift */,
+				43D823791F8C478F00F6EFB1 /* RubiksCube.swift */,
+				43D8237A1F8C478F00F6EFB1 /* RubiksScene.swift */,
+				43D823781F8C478F00F6EFB1 /* Side.swift */,
+				43D8237E1F8C479D00F6EFB1 /* Orb.PNG */,
 				436FE2401EE742970005C0C5 /* Assets.xcassets */,
 				436FE2421EE742970005C0C5 /* LaunchScreen.storyboard */,
 				436FE2451EE742970005C0C5 /* Info.plist */,
@@ -141,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				436FE2441EE742970005C0C5 /* LaunchScreen.storyboard in Resources */,
-				436FE2561EE745090005C0C5 /* Orb.PNG in Resources */,
 				436FE2411EE742970005C0C5 /* Assets.xcassets in Resources */,
 				436FE23F1EE742970005C0C5 /* Main.storyboard in Resources */,
 			);
@@ -154,12 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				436FE2521EE743070005C0C5 /* Extensions.swift in Sources */,
-				436FE2501EE743070005C0C5 /* RubiksCube.swift in Sources */,
+				43D8237C1F8C478F00F6EFB1 /* RubiksCube.swift in Sources */,
+				43D823771F8C476D00F6EFB1 /* PlayArea.swift in Sources */,
+				43D8237B1F8C478F00F6EFB1 /* Side.swift in Sources */,
 				436FE23C1EE742970005C0C5 /* ViewController.swift in Sources */,
-				436FE2511EE743070005C0C5 /* RubiksScene.swift in Sources */,
-				436FE2541EE743070005C0C5 /* Side.swift in Sources */,
-				436FE2531EE743070005C0C5 /* PlayArea.swift in Sources */,
+				43D823751F8C476200F6EFB1 /* Extensions.swift in Sources */,
+				43D8237D1F8C478F00F6EFB1 /* RubiksScene.swift in Sources */,
 				436FE23A1EE742970005C0C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
