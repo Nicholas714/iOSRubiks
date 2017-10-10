@@ -1,6 +1,5 @@
 import SceneKit
 import UIKit
-import PlaygroundSupport
 import SpriteKit
 
 public class PlayArea: NSObject, UIGestureRecognizerDelegate {
@@ -27,7 +26,6 @@ public class PlayArea: NSObject, UIGestureRecognizerDelegate {
         // setup view properties
         view.scene = scene
         view.backgroundColor = UIColor.black
-        PlaygroundPage.current.liveView = view
         
         view.allowsCameraControl = true
         defaultGestures = view.gestureRecognizers!

@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        PlayArea.v  = SCNView(frame: self.view.frame)
+        // PlayArea.v  = SCNView(frame: self.view.frame)
         let playArea = PlayArea()
         let rubiks = RubiksCube(area: playArea) 
         
